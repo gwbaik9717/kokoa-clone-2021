@@ -4,8 +4,9 @@
     align-items: center;
     padding-top: 60px;
     padding-bottom: 20px;
-    padding-left:20px;
-    padding-right: 20px;
+    padding-left:var(--horizontal-space);
+    padding-right: var(--horizontal-space);
+    margin-bottom: 5px;
 }
 
 .screen-header__title{
