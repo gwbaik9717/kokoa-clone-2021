@@ -47,16 +47,14 @@
 
 .user-component__column:last-child{
     color:rgba(0,0,0,0.4);
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
-.user-component__column--notification{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color: tomato;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    font-size: 13px;
-    color:white;
+
+
+.user-component__time{
+    display: block;
+    margin-bottom: 5px;
 }
