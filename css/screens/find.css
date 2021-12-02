@@ -1,6 +1,7 @@
 .find-icons{
     display:flex;
     justify-content: space-between;
+    
 }
 
 .find-icons__icon{
@@ -17,3 +18,39 @@
     left:65px;
     bottom:20px;
 }
+
+.recommended-friends{
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+    padding:15px 0px;
+    margin:20px 0px;
+}
+
+.recommended-friends__title{
+    color: rgba(0,0,0,0.5);
+}
+
+.recommended-friends__nofriends{
+    padding: 90px 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recommended-friends__nofriends--title{
+    font-size:18px;
+    color: rgba(0,0,0,0.5);
+}
+
+.openchat_BTS{
+    margin-top:10px;
+    padding-bottom:10px;
+    border-bottom: var(--main-border);
+}
+
+.openchat_BTS:first-child{
+    maargin-top:0px;
+    padding-bottom:10px;
+    border-bottom: var(--main-border);
+}
+

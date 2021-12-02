@@ -16,11 +16,23 @@
     margin-right:20px;
 }
 
+.user-component__avatar--xs{
+    width:20px;
+    height:20px;
+    border-radius: 35%;
+}
+
 .user-component__avatar--xl{
     width:70px;
     height:70px;
     border-radius: 35%;
     margin-right:20px;
+}
+
+.user-component__avatar--xxl{
+    width:90px;
+    height:90px;
+    border-radius: 15%;
 }
 
 .user-component__avatar--sm{
@@ -52,9 +64,28 @@
     align-items: flex-end;
 }
 
-
-
 .user-component__time{
     display: block;
     margin-bottom: 5px;
 }
+
+.user-component__status {
+    margin:5px 0px;
+    display:flex;
+    align-items: center;
+}
+
+.user-component__status--members {
+    margin: 0px 5px;
+    color:rgba(0,0,0,0.4);
+}
+
+.user-component__status--members {
+    color:rgba(0,0,0,0.4);
+}
+
+.user-component__status--active {
+    margin: 0px 5px;
+    color:magenta;
+}
+
