@@ -69,23 +69,4 @@
     margin-bottom: 5px;
 }
 
-.user-component__status {
-    margin:5px 0px;
-    display:flex;
-    align-items: center;
-}
-
-.user-component__status--members {
-    margin: 0px 5px;
-    color:rgba(0,0,0,0.4);
-}
-
-.user-component__status--members {
-    color:rgba(0,0,0,0.4);
-}
-
-.user-component__status--active {
-    margin: 0px 5px;
-    color:magenta;
-}
 
