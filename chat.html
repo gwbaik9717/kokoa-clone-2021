@@ -26,7 +26,7 @@
 
     <header class="alt-header">
       <div class="alt-header__column">
-        <a href="./more.html"><i class="fas fa-chevron-left fa-lg"></i></a>
+        <a href="./chats.html"><i class="fas fa-chevron-left fa-lg"></i></a>
       </div>
       <div class="alt-header__column">
         <h1 class="alt-header__title">백건우</h1>
@@ -37,7 +37,47 @@
       </div>
     </header>
 
-    <main class="main-screen"></main>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, June 30, 2020</div>
+
+      <div class="message-row">
+        <img src="./screenshots/profile.png" />
+        <div class="message-row__countent">
+          <span class="message__author">Nicolas</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">21:37</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__countent">
+          <div class="message__info">
+            <span class="message__bubble">What's up?</span>
+            <span class="message__time">21:38</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+
+      <div class="reply__column">
+        <input placeholder="Write a message" />
+
+        <span class="smile">
+          <i class="far fa-smile fa-lg"></i>
+        </span>
+
+        <button>
+          <i class="fas fa-arrow-up fa-lg"></i>
+        </button>
+      </div>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/0bca6ce86d.js"
