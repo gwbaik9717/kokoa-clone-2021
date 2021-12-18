@@ -90,6 +90,8 @@
   height: 50px;
   justify-content: space-between;
   box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
 }
 
 .reply__column:first-child {
