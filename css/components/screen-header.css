@@ -11,6 +11,8 @@
   width: 100%;
   box-sizing: border-box;
   top: 0;
+  background-color: white;
+  z-index: 1;
 }
 
 .screen-header__title {
